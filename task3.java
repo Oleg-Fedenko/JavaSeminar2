@@ -7,7 +7,7 @@
 Студент Краснов получил 5 по предмету Физика. */
 
 public class task3 {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args)  throws Exception {
         String [] arrayData =  lib.ReadLineFromFile("dataForTask3.txt");
         for(int i = 0; i < arrayData.length; i++) {
             System.out.println(PrintLine(arrayData[i]));
